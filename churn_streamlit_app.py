@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 
 # Load the pre-trained model
-with open("optimized_model_model.pkl", "rb") as model_file:
+with open("optimized_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
 
 # Load the scaler model
