@@ -66,7 +66,9 @@ df = pd.DataFrame(
     
     ]
 )
-
+df['Contract'] = label_encoder_contract.fit_transform(df['Contract'])
+df['OnlineSecurity'] = label_encoder_online_security.fit_transform(df['OnlineSecurity'])
+df['TechSupport'] = label_encoder_tech_support.fit_transform(df['TechSupport'])
 # Scaling the data
 scaled_df = scaler.transform(df)
 # Make predictions
