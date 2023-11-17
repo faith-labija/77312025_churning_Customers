@@ -6,6 +6,9 @@ import tensorflow as tf
 import streamlit as stream
 from tensorflow import keras 
 from create_model import create_model
+import os
+os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
+
 
 # Load the pre-trained model
 with open("optimized_model.pkl", "rb") as model_file:
