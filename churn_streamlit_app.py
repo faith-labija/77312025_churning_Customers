@@ -12,11 +12,11 @@ with open("optimized_model.pkl", "rb") as model_file:
 
 # Load the scaler model
 with open("scaler.pkl", "rb") as model_file:
-    label = pickle.load(model_file)
+    scaler = pickle.load(model_file)
 
 # Load the label model
 with open("label.pkl", "rb") as model_file:
-    scaler = pickle.load(model_file)
+    label = pickle.load(model_file)
 
 # Streamlit app
 st.title("Telecom Churning Prediction")
