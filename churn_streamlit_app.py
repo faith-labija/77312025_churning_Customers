@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
-import tensorflow as tensor
+import tensorflow as tf
 import streamlit as stream
 from create_model import create_model
 
