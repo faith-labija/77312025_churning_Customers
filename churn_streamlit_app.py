@@ -4,7 +4,7 @@ import pandas as pd
 import pickle
 import tensorflow as tensor
 import streamlit as stream
-import create_model from create_model
+from create_model import create_model
 
 # Load the pre-trained model
 with open("optimized_model.pkl", "rb") as model_file:
