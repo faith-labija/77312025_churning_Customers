@@ -2,7 +2,7 @@
 # Overview
 This is a simple Streamlit web application for predicting customer churn in a telecoms company. The app uses a pre-trained machine learning model to make predictions based on user-inputted data.
 # Perequisites
-Make sure you have the necessary dependencies installed
+Make sure you have the necessary dependencies installed 
 Usage
 The app requires the following pre-trained models:
 
