@@ -1,0 +1,7 @@
+Tensorflow
+Keras
+SKlearn
+Sci-keras
+Streamlit
+pandas
+numpy
