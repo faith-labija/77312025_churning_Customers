@@ -5,3 +5,4 @@ Scikeras
 Streamlit
 pandas
 numpy
+keras
