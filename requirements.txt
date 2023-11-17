@@ -1,7 +1,7 @@
 Tensorflow
 Keras
 SKlearn
-Sci-keras
+Scikeras
 Streamlit
 pandas
 numpy
