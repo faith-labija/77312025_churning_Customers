@@ -1,4 +1,4 @@
-Tensorflow
+tensorflow==2.14.0
 Keras
 SKlearn
 Scikeras
