@@ -35,9 +35,9 @@ online_security_mapping = {"No": 0, "Yes": 1}
 OnlineSecurity = online_security_mapping[OnlineSecurity]
 
 TotalCharges = st.number_input(
-    "TotalCharges", min_value=0, value=50
+    "TotalCharges", min_value=0, value=10000
 )
-MonthlyCharges = st.slider("MonthlyCharges", min_value=0, max_value=100, value=50)
+MonthlyCharges = st.slider("MonthlyCharges", min_value=0, max_value=500, value=50)
 tech_support_options = ["No", "Yes"]
 TechSupport = st.selectbox("Tech Support", tech_support_options)
 tech_support_mapping = {"No": 0, "Yes": 1}
