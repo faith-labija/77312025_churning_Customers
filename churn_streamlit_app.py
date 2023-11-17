@@ -10,7 +10,7 @@ from create_model import create_model
 # Load the pre-trained model
 with open("optimized_model.pkl", "rb") as model_file:
     model = pickle.load(model_file)
-
+    
 # Load the scaler model
 with open("scaler.pkl", "rb") as model_file:
     scaler = pickle.load(model_file)
