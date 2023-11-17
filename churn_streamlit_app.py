@@ -2,6 +2,9 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import tensorflow as tensor
+import streamlit as stream
+import create_model from create_model
 
 # Load the pre-trained model
 with open("optimized_model.pkl", "rb") as model_file:
@@ -9,6 +12,10 @@ with open("optimized_model.pkl", "rb") as model_file:
 
 # Load the scaler model
 with open("scaler.pkl", "rb") as model_file:
+    scaler = pickle.load(model_file)
+
+# Load the label model
+with open("label.pkl", "rb") as model_file:
     scaler = pickle.load(model_file)
 
 # Streamlit app
