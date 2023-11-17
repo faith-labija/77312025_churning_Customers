@@ -7,8 +7,11 @@ Usage
 The app requires the following pre-trained models:
 
 optimized_model.pkl: Machine learning model for making predictions.
+
 scaler.pkl: Scaler model for scaling input data.
+
 label.pkl: Label encoder for encoding categorical variables.
+
 Ensure that these model files are present in the same directory as your Streamlit app.
 
 Run the Streamlit app using the provided instructions in the "Installation" section.
