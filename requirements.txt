@@ -1,5 +1,5 @@
 tensorflow==2.14.0
-Keras
+keras==2.14.0
 scikit-learn
 Scikeras
 Streamlit
